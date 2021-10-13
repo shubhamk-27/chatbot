@@ -1,0 +1,199 @@
+{"tag":"501A",
+"patterns":["How can I go to room 501A","Help me to reach room no 501A","Where is room no 501A"];
+"responses":Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right And to your left hand room no 501A is there."],
+"context":[""]
+}
+
+{"tag":"501B",
+"patterns":["How can I go to room 501A","Help me to reach room no 501B","Where is room no 501B"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right and go few steps in same direction to your left hand room no 501B is there."],
+"context":[""]
+}
+
+{"tag":"502",
+"patterns":["How can I go to room 502","Help me to reach room no 502","Where is room no 502"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right and go few steps in same direction to the end room no 502 is there."],
+"context":[""]
+}
+
+{"tag":"503",
+"patterns":["How can I go to room 503","Help me to reach room no 503","Where is room no 503"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right and go few steps in same direction to the end room no 503 is there(to right side of room no.502)."],
+"context":[""]
+}
+
+{"tag":"504",
+"patterns":["How can I go to room 504","Help me to reach room no 504","Where is room no 504"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end then turn left go few steps in same direction to your right hand room no 504 is there.-"],
+"context":[""]
+}
+
+{"tag":"505",
+"patterns":["How can I go to room 505","Help me to reach room no 505","Where is room no 505"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end you will find room no 505 in front of you."],
+"context":[""]
+}
+
+{"tag":"506",
+"patterns":["How can I go to room 506","Help me to reach room no 506","Where is room no 506"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end and then turn slightly to the right walk few steps you will find room no 506 in front of you."],
+"context":[""]
+}
+
+{"tag":"508A",
+"patterns":["How can I go to room 508A","Help me to reach room no 508A","Where is room no 508A"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to your right hand room no 508A is there."],
+"context":[""]
+}
+
+{"tag":"508B",
+"patterns":["How can I go to room 508B","Help me to reach room no 508B","Where is room no 508B"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction then turn right and you will fing room no 508B is in front of you."],
+"context":[""]
+}
+
+{"tag":"Water cooler",
+"patterns":["How can I go to Water cooler","Help me to reach Water cooler","Where is Water cooler"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then you will find Water cooler in front of you."],
+"context":[""]
+}
+
+{"tag":"5011",
+"patterns":["How can I go to room 5011","Help me to reach room no 5011","Where is room no 5011"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then then again turn right to your left hand you will find room no 511."],
+"context":[""]
+}
+
+{"tag":"515",
+"patterns":["How can I go to room 515","Help me to reach room no 515","Where is room no 515"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then to your left hand you will find room no 515."],
+"context":[""]
+}
+
+{"tag":"514",
+"patterns":["How can I go to room 514","Help me to reach room no 514","Where is room no 514"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) to your right hand you will find room no 514."],
+"context":[""]
+}
+
+{"tag":"Seating Area",
+"patterns":["How can I go to Seating Area","Help me to reach Seating Area","Where is Seating Area"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then you will find seating area in front of you."],
+"context":[""]
+}
+
+{"tag":"Power supply area",
+"patterns":["How can I go to Power supply area","Help me to reach Power supply area","Where is Power supply area"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction again turn left you will find power supply area to the backside of the lift.
+"],
+"context":[""]
+}
+
+
+{"tag":"513A",
+"patterns":["How can I go to room 513A","Help me to reach room no 513A","Where is room no 513A"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby to your right hand you will find room no 513A."],
+"context":[""]
+}
+
+
+
+{"tag":"513A",
+"patterns":["How can I go to room 513A","Help me to reach room no 513A","Where is room no 513A"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby to your right hand you will find room no 513B."],
+"context":[""]
+}
+
+
+
+{"tag":"Computer Science Departmental Library",
+"patterns":["How can I go to Computer Science Departmental Library","Help me to reach Computer Science Departmental Library","Where is Computer Science Departmental Library"];
+"responses":["A.Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby to your left hand you will find Department library."],
+"context":[""]
+}
+
+
+{"tag":"RAIT Palcement cell",
+"patterns":["How can I go to RAIT Palcement cell","Help me to reach RAIT Palcement cell","Where is RAIT Palcement cell"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end you will find RAIT Palcement cell."],
+"context":[""]
+}
+
+
+{"tag":"523A",
+"patterns":["How can I go to room 523A","Help me to reach room no 523A","Where is room no 523A"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end you will get room no 523A."],
+"context":[""]
+}
+
+
+{"tag":"523B",
+"patterns":["How can I go to room 523B","Help me to reach room no 523B","Where is room no 523B"];
+"responses":["
+Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps to your left hand you will find room no 523B."],
+"context":[""]
+}
+
+{"tag":"516A",
+"patterns":["How can I go to room 516A","Help me to reach room no 516A","Where is room no 516A"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps to your left hand you will find room no 516A."],
+"context":[""]
+}
+
+
+{"tag":"516B",
+"patterns":["How can I go to room 516B","Help me to reach room no 516B","Where is room no 516B"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps to your left hand you will find room no 516B."],
+"context":[""]
+}
+
+
+
+{"tag":"521",
+"patterns":["How can I go to room 521","Help me to reach room no 521","Where is room no 521"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and to the left side in lobby you will get room no 521."],
+"context":[""]
+}
+
+{"tag":"522",
+"patterns":["How can I go to room 522","Help me to reach room no 522","Where is room no 522"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and to the right side in lobby you will get room no 522."],
+"context":[""]
+}
+
+{"tag":"519",
+"patterns":["How can I go to room 519","Help me to reach room no 519","Where is room no 519"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and in the lobby you will find room no 519 in front of you."],
+"context":[""]
+}
+{"tag":"520",
+"patterns":["How can I go to room 520","Help me to reach room no 520","Where is room no 520"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and in the lobby you will find room no 519 in front of you,and from lab 519 to the right you will find door for room no. 520."],
+"context":[""]
+}
+
+{"tag":"518",
+"patterns":["How can I go to room 518","Help me to reach room no 518","Where is room no 518"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and in the lobby you will find room no 518 in front of you."],
+"context":[""]
+}
+
+{"tag":"517",
+"patterns":["How can I go to room 517","Help me to reach room no 517","Where is room no 517"];
+"responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and in the lobby you will find room no 518 in front of you,and from room no 518 to the left you will find door for room no. 517."],
+"context":[""]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,559 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "about ChatBot",
+         "patterns": ["Who are you", "What is your name", "Your name"],
+         "responses": ["Hello, My name is RAIT-Navigation ChatBot", "Iam RAIT ChatBot"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+
+
+        {"tag": "First floor",
+         "patterns": ["How can i go to first floor", "help me to reach first floor"],
+         "responses": ["Entering from glass doors you will find both stairs(in front of you) and lift (to your right) with the help you can reach to First floor"],
+         "context": [""]
+        },
+        {"tag": "101",
+         "patterns": ["How can i go to room 101 ", "help me to reach to room 101", "Where is room 101"],
+         "responses": ["standing in front of lift facing toward the staircase take a left turn anf then right turn and go straight.there at the end u will find 101"],
+         "context": [""]
+        },
+        {"tag": "102",
+         "patterns": ["How can i go to room 102 ", "help me to reach to room 102", "Where is room 102","where is the register room" ],
+         "responses": ["standing in front of lift facing toward the staircase take a left tuen anf then right turn and go straing until u find another turn and take right from there agin.The first room will, be the register  room"],
+         "context": [""]
+        },
+        {"tag": "103",
+         "patterns": ["How can i go to room 103 ", "help me to reach to room 103", "Where is room 103","where is the principal room" ],
+         "responses": ["Standing in front of lift facing toward the stair case take a left and then take a right turn,go straight until u find another tuen and then turn righ.the second room from the turn will be 103(principal room)"],
+         "context": [""]
+        },
+        {"tag": "104",
+         "patterns": ["How can i go to room 104 ", "help me to reach to room 104", "Where is room 104","where is examinaton room" ],
+         "responses": ["Standing in front of lift facing toward the stair case take a left and then take a right turn,go straight until u find another turn and then turn righ and go straight.There u will find a small turn inside.that is room "],
+         "context": [""]
+        },
+        {"tag": "106",
+         "patterns": ["How can i go to room 106 ", "help me to reach to room 106", "Where is room 106"],
+         "responses": [".Standing in front of lift facing toward the stair case take a left and then take a right turn,go straight until u find another turn and then turn right and go straight.Here u will find asmall left tuen and eventaully go ahead u will find 106(classroom)"],
+         "context": [""]
+        },
+        {"tag": "108A",
+         "patterns": ["How can i go to room 108A ", "help me to reach to room 108A", "Where is room 108A"],
+         "responses": ["Standing in front of lift facing toward the stait take a right turn and then take a left tuen .go straight and take a right tuen.The rooom touched to it is 108A"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "108B",
+         "patterns": ["How can i go to room 108B", "help me to reach to room 108B", "Where is room 108B"],
+         "responses": ["Standing in front of lift facing toward the stair case take a right turn and then left turn.there in front u will find 108B lab"],
+         "context": [""]
+        },
+        {"tag": "boys washroom",
+         "patterns": ["How can i go to boys washroom ", "help me to reach to boys washroom", "Where is boys washroom"],
+         "responses": ["Standing in front of lift facing toward the stair case turn right and go ahead and take a left turn.At the left side u will find the boys washroom"],
+         "context": [""]
+        },
+        {"tag": "girls washroom",
+         "patterns": ["How can i go to girls washroom ", "help me to reach to girls washroom", "Where is girls washroom"],
+         "responses": ["Standing in front of lift facing toward the stair case turn right and go ahead and take a left turn.At the right side u will find the boys washroom"],
+         "context": ["Standing in front of lift facing towards staircase turn right.in front of u u will find the girls washroom"]
+        },
+        {"tag": "consulting room",
+         "patterns": ["How can i go to consulting room ", "help me to reach to consulting room", "Where is consulting room"],
+         "responses": ["standing in front of lift facing toward the staircase take a left turn and then take a right tune .the first rom froom the turn will be the consulting room"],
+         "context": [""]
+        },
+        {"tag": "room 115",
+         "patterns": ["How can i go to room 115", "help me to reach to room 115", "Where is room 115"],
+         "responses": ["standing in front of lift facing toward the staitcase take a left tuen and go straight.in the end u will finad the classroom"],
+         "context": [""]
+        },
+
+
+        {"tag": "Second floor",
+         "patterns": ["How to reach on second(2nd) floor", "help me to reach second(2nd) floor"],
+         "responses": ["After entering inside the RAIT glass door, turn right and take 10-12 steps of walk You will find lift and staircases to get on second floor."],
+         "context": [""]
+        },
+        {"tag": "201A",
+         "patterns": ["How can i go to room no 201 A", "help me to reach to room no 201 A", "Where is room no 201A"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take right turn and walk 8-10 steps and your destination room no 201A is at left."],
+         "context": [""]
+        },
+         {"tag": "201B",
+         "patterns": ["How can i go to room no 201 B", "help me to reach to room no 201 B", "Where is room no 201B"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take right turn and walk 8-10 steps and your destination room no 201B is at left."],
+         "context": [""]
+        },
+        {"tag": "202A",
+         "patterns": ["How can i go to room no 202A", "help me to reach to room no 202A", "Where is room no 202A"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take right turn and walk 10-12 steps and your destination room no 202A is in front of you."],
+         "context": [""]
+        },
+         {"tag": "202B",
+         "patterns": ["How can i go to room no 202B", "help me to reach to room no 202B", "Where is room no 202B"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take right turn and walk 10-12 steps and your destination room no 202B is in front of you."],
+         "context": [""]
+        },
+        {"tag": "203",
+         "patterns": ["How can i go to room no 203", "help me to reach to room no 203", "Where is room no 203"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take right turn and walk 12-13 steps, turn right take 2 steps and your destination room no 203 is at your left."],
+         "context": [""]
+        },
+         {"tag": "Computational laboratory",
+         "patterns": ["How can i go to Computational laboratory", "help me to reach to Computational laboratory", "Where is Computational laboratory"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn right and walk 4-5 steps, take left turn and walk 10-12 steps and your destination Computational laboratory is at your right."],
+         "context": [""]
+        },
+        {"tag": "215",
+         "patterns": ["How can i go to room no 215", "help me to reach to room no 215", "Where is room no 215"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 5-6 steps and your destination room no 215 is at your left."],
+         "context": [""]
+        },
+        {"tag": "208A",
+         "patterns": ["How can i go to room no 208A", "help me to reach to room no 208A", "Where is room no 208A"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn right and walk 5-6 steps and your destination room no 208A is at your left."],
+         "context": [""]
+        },
+        {"tag": "208B",
+         "patterns": ["How can i go to room no 208B", "help me to reach to room no 208B", "Where is room no 208B"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn right and walk 5-6 steps and your destination room no 208B is at your left."],
+         "context": [""]
+        },
+        {"tag": "211A",
+         "patterns": ["How can i go to room no 211A", "help me to reach to room no 211A", "Where is room no 211A"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn right and walk 5-6 steps and your destination room no 211A is at your right."],
+         "context": [""]
+        },
+        {"tag": "211B",
+         "patterns": ["How can i go to room no 211B", "help me to reach to room no 211B", "Where is room no 211B"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn right and walk 5-6 steps and your destination room no 211B is at your right."],
+         "context": [""]
+        },
+        {"tag": "214",
+         "patterns": ["How can i go to room no 214", "help me to reach to room no 214", "Where is room no 214"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take left turn and walk 6-8 steps and your destination room no 214 is at your right."],
+         "context": [""]
+        },
+        {"tag": "213B",
+         "patterns": ["How can i go to room no 213B", "help me to reach to room no 213B", "Where is room no 213B"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take left turn and walk 7-9 steps and your destination room no 213B is in front of you."],
+         "context": [""]
+        },
+        {"tag": "213A",
+         "patterns": ["How can i go to room no 213A", "help me to reach to room no 213A", "Where is room no 213A"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take left turn and walk 7-9 steps and your destination room no 213A is beside left of 213 B"],
+         "context": [""]
+        },
+        {"tag": " Computer lab (room no 212)",
+         "patterns": ["How can i go to room no 212", "help me to reach to room no 212", "Where is room no 212"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take left turn and walk 7-9 steps, turn left again and walk 8-10 steps, then turn right and walk 8-10 steps and your destination Computer lab (room no 212) is in front of you."],
+         "context": [""]
+        },
+        {"tag": " IETE room",
+         "patterns": ["How can i go to  IETE room", "help me to reach to  IETE room", "Where is  IETE room"],
+         "responses": ["Ref:On second Floor standing in front of lift and facing towards stairs,turn left and walk 4-5 steps, take left turn and walk 7-9 steps, turn left again and walk 8-10 steps, then turn right and walk 8-10 steps, you will find Computer lab in fronf of you and your destination is beside right of Computer lab."],
+         "context": [""]
+        },
+        {"tag": "Xerox center",
+         "patterns": ["How can i go to Xerox center", "help me to reach to Xerox center", "Where is Xerox center"],
+         "responses": ["Ref:On second Floor standing in front of lift and facing towards stairs, turn left and walk 4-5 steps, take left turn and walk 7-9 steps, turn left again and walk 8-10 steps, then turn right and walk 8-10 steps, turn left and walk 13-15 steps and your destination Xerox center is at your right."],
+         "context": [""]
+        },
+        {"tag": "Kalaraag room",
+         "patterns": ["How can i go to Kalaraag room", "help me to reach to Kalaraag room", "Where is Kalaraag room"],
+         "responses": ["Ref: On second Floor standing in front of lift and facing towards stairs, turn left and walk 4-5 steps, take left turn and walk 7-9 steps, turn left again and walk 8-10 steps, then turn right and walk 8-10 steps, turn left and walk 15-18 steps and your destination Kalaraag room is at your right."],
+         "context": [""]
+        },
+        {"tag": "SUC room",
+         "patterns": ["How can i go to SUC room", "help me to reach to SUC room", "Where is SUC room"],
+         "responses": ["Ref:On second floor standing in front of lift and facing towards stairs, turn left and walk 4-5 steps, take left turn and walk 7-9 steps, turn left again and walk 8-10 steps, then turn right and walk 8-10 steps, turn left and walk 15-18 steps and your destination SUC room is in front of you."],
+         "context": [""]
+        },
+
+
+
+         {"tag": "Third floor",
+         "patterns": ["How to reach on Third(3rd) floor", "help me to reach Third(3rd) floor"],
+         "responses": ["After entering inside the RAIT glass door, turn right and take 10-12 steps of walk You will find lift and staircases to get on Third floor."],
+         "context": [""]
+        },
+        {"tag":"Library",
+         "patterns":["How can I go to library","Help me to reach library","Where is library"],
+         "responses": ["Ref:On third floor standing in front of lift and facing towards stairs,turn back you will find library to your left hand side"],
+         "context":[""]
+        },
+        {"tag":"books store in the library",
+         "patterns":["How can I go to books store in the library","Help me to reach books store in the library","Where is books store in the library"],
+         "responses": ["Ref:On third floor standing in front of lift and facing towards stairs,turn back you will find library to your left hand side you will find main door for library Take a right after going to the main room of the library you will find book store"],
+         "context":[""]
+        },
+        {"tag":"301 CO Seminar Hall",
+         "patterns":["How can I go to room no. 301","Help me to reach room no. 301","Where is room no. 301"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight left and go straight you will find room no. 301 CO Seminar Hall"],
+         "context":[""]
+        },
+        {"tag":"302 ET Seminar Hall",
+         "patterns":["How can I go to 302","Help me to reach 302","Where is 302"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight left and go straight you will find room no. 302 ET Seminar Hall"],
+         "context":[""]
+        },
+        {"tag":"304",
+         "patterns":["How can I go to room no 304","Help me to reach room no 304","Where is room no 304"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight right and go straight you will find room no. 304"],
+         "context":[""]
+        },
+        {"tag":"305",
+         "patterns":["How can I go to room no 305","Help me to reach room no 305","Where is room no 305"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight right and go straight you will find room no. 305"],
+         "context":[""]
+        },
+        {"tag":"306",
+         "patterns":["How can I go to room no 306","Help me to reach room no 306","Where is room no 306"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight right and go straight you will find room no. 306"],
+         "context":[""]
+        },
+        {"tag":"307 Record room",
+         "patterns":["How can I go to room no 307","Help me to reach room no 307","Where is room no 307"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight right and go straight then again take right you will find room no. 307"],
+         "context":[""]
+        },
+        {"tag":"T.V Video & Antenna Lab. 308A",
+         "patterns":["How can I go to room no 308A","Help me to reach room no 308A","Where is room no 308A"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight right and go straight then again take right you will find room no. 308 T.V Video & Antenna Lab"],
+         "context":[""]
+        },
+        {"tag":"advance Communication Lab 308B",
+         "patterns":["How can I go to room no 308B","Help me to reach room no 308B","Where is room no 308B"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight right and go straight you will find room no. 308B Advance Communication Lab"],
+         "context":[""]
+        },
+        {"tag":"311A & 311B",
+         "patterns":["How can I go to room no 311A","Help me to reach room no 311A","Where is room no 311A","How can I go to room no 311B","Help me to reach room no 311B","Where is room no 311B"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a slight right  you will find room no. 311A & 311B"],
+         "context":[""]
+        },
+        {"tag":"314",
+         "patterns":["How can I go to room no 314","Help me to reach room no 314","Where is room no 314"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs take a left and enter from the glass door then go straight you will find room no. 314"],
+         "context":[""]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {"tag": "Fifth floor",
+         "patterns": ["How to reach on fifth floor", "help me to reach fifth floor"],
+         "responses": ["After entering inside the RAIT glass door, turn right and take 10-12 steps of walk You will find lift and staircases to get on Fifth floor."],
+         "context": [""]
+        },
+        {"tag":"501A",
+         "patterns":["How can I go to room 501A","Help me to reach room no 501A","Where is room no 501A"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right And to your left hand room no 501A is there."],
+         "context":[""]
+        },
+
+        {"tag":"501B",
+        "patterns":["How can I go to room 501A","Help me to reach room no 501B","Where is room no 501B"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right and go few steps in same direction to your left hand room no 501B is there."],
+        "context":[""]
+        },
+
+        {"tag":"502",
+        "patterns":["How can I go to room 502","Help me to reach room no 502","Where is room no 502"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right and go few steps in same direction to the end room no 502 is there."],
+        "context":[""]
+        },
+
+        {"tag":"503",
+        "patterns":["How can I go to room 503","Help me to reach room no 503","Where is room no 503"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right and go few steps in same direction to the end room no 503 is there(to right side of room no.502)."],
+        "context":[""]
+        },
+
+        {"tag":"504",
+        "patterns":["How can I go to room 504","Help me to reach room no 504","Where is room no 504"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end then turn left go few steps in same direction to your right hand room no 504 is there.-"],
+        "context":[""]
+        },
+
+        {"tag":"505",
+        "patterns":["How can I go to room 505","Help me to reach room no 505","Where is room no 505"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end you will find room no 505 in front of you."],
+        "context":[""]
+        },
+
+        {"tag":"506",
+        "patterns":["How can I go to room 506","Help me to reach room no 506","Where is room no 506"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end and then turn slightly to the right walk few steps you will find room no 506 in front of you."],
+        "context":[""]
+        },
+
+        {"tag":"508A",
+        "patterns":["How can I go to room 508A","Help me to reach room no 508A","Where is room no 508A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to your right hand room no 508A is there."],
+        "context":[""]
+        },
+
+        {"tag":"508B",
+        "patterns":["How can I go to room 508B","Help me to reach room no 508B","Where is room no 508B"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction then turn right and you will fing room no 508B is in front of you."],
+        "context":[""]
+        },
+
+        {"tag":"Water cooler",
+        "patterns":["How can I go to Water cooler","Help me to reach Water cooler","Where is Water cooler"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then you will find Water cooler in front of you."],
+        "context":[""]
+        },
+
+        {"tag":"511",
+        "patterns":["How can I go to room 511","Help me to reach room no 511","Where is room no 511"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then then again turn right to your left hand you will find room no 511."],
+        "context":[""]
+        },
+
+        {"tag":"515",
+        "patterns":["How can I go to room 515","Help me to reach room no 515","Where is room no 515"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then to your left hand you will find room no 515."],
+        "context":[""]
+        },
+
+        {"tag":"514",
+        "patterns":["How can I go to room 514","Help me to reach room no 514","Where is room no 514"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) to your right hand you will find room no 514."],
+        "context":[""]
+        },
+
+        {"tag":"Seating Area",
+        "patterns":["How can I go to Seating Area","Help me to reach Seating Area","Where is Seating Area"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then you will find seating area in front of you."],
+        "context":[""]
+        },
+
+        {"tag":"Power supply area",
+        "patterns":["How can I go to Power supply area","Help me to reach Power supply area","Where is Power supply area"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction again turn left you will find power supply area to the backside of the lift."],
+        "context":[""]
+        },
+
+
+        {"tag":"513A",
+        "patterns":["How can I go to room 513A","Help me to reach room no 513A","Where is room no 513A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby to your right hand you will find room no 513A."],
+        "context":[""]
+        },
+
+
+
+        {"tag":"513A",
+        "patterns":["How can I go to room 513A","Help me to reach room no 513A","Where is room no 513A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby to your right hand you will find room no 513B."],
+        "context":[""]
+        },
+
+
+
+        {"tag":"Computer Science Departmental Library",
+        "patterns":["How can I go to Computer Science Departmental Library","Help me to reach Computer Science Departmental Library","Where is Computer Science Departmental Library"],
+        "responses":["A.Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby to your left hand you will find Department library."],
+        "context":[""]
+        },
+
+
+        {"tag":"RAIT Placement cell",
+        "patterns":["How can I go to RAIT Placement cell","Help me to reach RAIT Placement cell","Where is RAIT Placement cell"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end you will find RAIT Palcement cell."],
+        "context":[""]
+        },
+
+
+        {"tag":"523A",
+        "patterns":["How can I go to room 523A","Help me to reach room no 523A","Where is room no 523A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end you will get room no 523A."],
+        "context":[""]
+        },
+
+
+        {"tag":"523B",
+        "patterns":["How can I go to room 523B","Help me to reach room no 523B","Where is room no 523B"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps to your left hand you will find room no 523B."],
+        "context":[""]
+        },
+
+        {"tag":"516A",
+        "patterns":["How can I go to room 516A","Help me to reach room no 516A","Where is room no 516A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps to your left hand you will find room no 516A."],
+        "context":[""]
+        },
+
+
+        {"tag":"516B",
+        "patterns":["How can I go to room 516B","Help me to reach room no 516B","Where is room no 516B"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps to your left hand you will find room no 516B."],
+        "context":[""]
+        },
+
+
+
+        {"tag":"521",
+        "patterns":["How can I go to room 521","Help me to reach room no 521","Where is room no 521"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and to the left side in lobby you will get room no 521."],
+        "context":[""]
+        },
+
+        {"tag":"522",
+        "patterns":["How can I go to room 522","Help me to reach room no 522","Where is room no 522"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and to the right side in lobby you will get room no 522."],
+        "context":[""]
+        },
+
+        {"tag":"519",
+        "patterns":["How can I go to room 519","Help me to reach room no 519","Where is room no 519"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and in the lobby you will find room no 519 in front of you."],
+        "context":[""]
+        },
+        {"tag":"520",
+        "patterns":["How can I go to room 520","Help me to reach room no 520","Where is room no 520"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and in the lobby you will find room no 519 in front of you,and from lab 519 to the right you will find door for room no. 520."],
+        "context":[""]
+        },
+
+        {"tag":"518",
+        "patterns":["How can I go to room 518","Help me to reach room no 518","Where is room no 518"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and in the lobby you will find room no 518 in front of you."],
+        "context":[""]
+        },
+
+        {"tag":"517",
+        "patterns":["How can I go to room 517","Help me to reach room no 517","Where is room no 517"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn left and go few steps in same direction (backside of lift) then walking through the lobby at the end turn left again go straight to the end then turn right walk few steps at the end you will find a lobby and in the lobby you will find room no 518 in front of you,and from room no 518 to the left you will find door for room no. 517."],
+        "context":[""]
+        },
+
+
+
+
+
+        {"tag": "Fifth floor",
+         "patterns": ["How to reach on fifth floor", "help me to reach fifth floor"],
+         "responses": ["After entering inside the RAIT glass door, turn right and take 10-12 steps of walk You will find lift and staircases to get on Fifth floor."],
+         "context": [""]
+        },
+        {"tag":"601A",
+         "patterns":["How can I go to room 601A","Help me to reach room no 601A","Where is room no 601A"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right And to your left hand room no 601A is there."],
+         "context":[""]
+        },
+        {"tag":"601B",
+         "patterns":["How can I go to room 601B","Help me to reach room no 601B","Where is room no 601B"],
+         "responses": ["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right And to your left hand room no 601B is there."],
+         "context":[""]
+        },
+        {"tag":"602",
+        "patterns":["How can I go to room 602","Help me to reach room no 602","Where is room no 602"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right and go few steps in same direction to the end room no 602 is there."],
+        "context":[""]
+        },
+        {"tag":"603",
+        "patterns":["How can I go to room 603","Help me to reach room no 603","Where is room no 603"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left and go few steps ahead then turn right and go few steps in same direction to the end room no 603 is there(to right side of room no.602)."],
+        "context":[""]
+        },
+        {"tag":"604",
+        "patterns":["How can I go to room 604","Help me to reach room no 604","Where is room no 604"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end then turn left go few steps in same direction to your right hand room no 604 is there.-"],
+        "context":[""]
+        },
+        {"tag":"605",
+        "patterns":["How can I go to room 605","Help me to reach room no 605","Where is room no 605"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end you will find room no 605 in front of you."],
+        "context":[""]
+        },
+        {"tag":"606",
+        "patterns":["How can I go to room 606","Help me to reach room no 606","Where is room no 606"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then turn left and go few steps in same direction to the end and then turn slightly to the right walk few steps you will find room no 606 in front of you."],
+        "context":[""]
+        },
+        {"tag":"608 GCR",
+        "patterns":["How can I go to room 608","Help me to reach room no 608","Where is room no 608","How can I go to GCR","Help me to reach GCR","Where is GCR"],
+        "responses":["Ref:On sixth floor standing in front of lift and facing towards stairs,turn turn left room no 508 GCR is there."],
+        "context":[""]
+        },
+        {"tag":"611 Seminar hall",
+        "patterns":["How can I go to room 611","Help me to reach room no 611","Where is room no 611","How can I go to Seminar Hall","Help me to reach Seminar Hall","Where is Seminar Hall"],
+        "responses":["Ref:On sixth floor standing in front of lift and facing towards stairs,turn right and go few steps ahead then then again turn right to your left hand you will find room no 611 Seminar Hall."],
+        "context":[""]
+        },
+
+
+        {"tag":"612A",
+        "patterns":["How can I go to room 612A","Help me to reach room no 612A","Where is room no 612A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn right and go few steps ahead then then again turn right to your left hand you will find room no 612A."],
+        "context":[""]
+        },
+        {"tag":"612B",
+        "patterns":["How can I go to room 612B","Help me to reach room no 612B","Where is room no 612B"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left  and go few steps ahead then then again turn left to your left hand you will find room no 612B."],
+        "context":[""]
+        },
+        {"tag":"613A",
+        "patterns":["How can I go to room 613A","Help me to reach room no 613A","Where is room no 613A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,turn left, take first left, go straight, take first right, look right,you will find room no 613A."],
+        "context":[""]
+        },
+        {"tag":"616A",
+        "patterns":["How can I go to room 616A","Help me to reach room no 616A","Where is room no 616A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,Go right, take first right, walk straight, take first left, walk straight, take first right, walk straight, take first left, walk few steps, look left,you will find room no 616A."],
+        "context":[""]
+        },
+        {"tag":"616B",
+        "patterns":["How can I go to room 616B","Help me to reach room no 616A","Where is room no 616A"],
+        "responses":["Ref:standing in front of lift and facing towards stairs,Go right, take first right, walk straight, take first left, walk straight, take first right, walk straight, take first left, walk few steps, look left,you will find room no 616A."],
+        "context":[""]
+        }
+]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
